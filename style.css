@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Misol-1!!! */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    font-family: cursive;
+    color: brown;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.random-photo {
+    border-radius: 10px;
+} */
+
+/* Misol-2! */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+#text {
+    color: rgb(241, 148, 9);
+    font-size: 40px;
+    font-weight: 700;
+    align-items: center;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+#changeText {
+    padding: 12px 8px;
+    background-color: rgb(184, 212, 181);
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+} */
+
+/* Misol-3! */
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.main-image {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.allButton {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover {
+        background-color: rgb(6, 245, 181);
+    }
+} */
