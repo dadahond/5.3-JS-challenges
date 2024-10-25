@@ -39,3 +39,53 @@
 // });
 
 // Misol-4!!! JavaScript orqali sahifadagi elementning stilini o'zgartirish uchun amaliyot. Tugmani bosganda, matn rangi va shrift hajmi o'zgarishi kerak.
+
+// Misol-4! Solution!
+// const text = document.getElementById("styledText");
+// const buttonColor = document.getElementById("colorButton");
+// const buttonFontF = document.getElementById("fontFamilyButton");
+
+// buttonColor.addEventListener("click", () => {
+//   text.style.color = "red";
+// });
+// buttonFontF.addEventListener("click", () => {
+//   text.style.fontFamily = "Cursive";
+// });
+
+// Misol-5!!! Sahifada bo'sh <ul> elementi bo'lsin. JavaScript orqali foydalanuvchi tomonidan kiritilgan ma'lumotni yangi <li> element sifatida qo'shish.
+
+// Misol-5!!! Solution!
+// const button = document.querySelector("#addItem");
+// const input = document.querySelector("#item");
+// const ul = document.querySelector("#list");
+
+// button.addEventListener("click", () => {
+//   const li = document.createElement("li");
+//   li.textContent = input.value;
+//   ul.appendChild(li);
+//   input.value = "";
+// });
+
+// Misol - 6! Sahifadagi biror paragrafni yashirish va ko'rsatish uchun tugma qo'shing. Tugma bosilganda paragrafni yashiradi yoki ko'rsatadi.
+
+// Misol-6! Solution!
+
+// const text = document.querySelector("#toggleText");
+// const toggleSwitch = document.querySelector(".toggle-switch");
+
+// toggleSwitch.addEventListener("click", () => {
+//   if (toggleSwitch.classList.contains("active")) {
+//     text.textContent = "";
+//   } else {
+//     text.textContent = "Hello World";
+//   }
+// });
+
+// Misol-8! Sahifada real vaqtni (soat, daqiqa, soniya) ko'rsatib turadigan element yarating va har bir soniya yangilanib tursin.
+
+// Misol-8! Solution!
+
+// const time = document.querySelector("#time");
+// setInterval(() => {
+//   time.textContent = new Date().toLocaleTimeString();
+// }, 1000);

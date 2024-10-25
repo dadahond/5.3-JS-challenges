@@ -83,3 +83,145 @@ button {
         background-color: rgb(6, 245, 181);
     }
 } */
+
+/* Misol-4!!!  */
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  padding: 6px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  transition: 0.4s;
+  background-color: rgb(213, 228, 234);
+}
+
+.buttonColor:hover {
+  color: red;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+.buttonFontF:hover {
+  font-family: cursive;
+  font-size: 20px;
+  background-color: #ffffff;
+} */
+
+/* Misol-5!!!  */
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.addList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: rgb(172, 209, 213);
+  border: none;
+  color: #f10a0a;
+  font-size: 20px;
+}
+
+input {
+  background-color: rgb(230, 192, 179);
+  border: 1px dashed red;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+} */
+
+/* Misol-6!!!  */
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.hideText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.toggle-switch {
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-color: #ccc;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-switch::before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 2px;
+  left: 2px;
+  transition: transform 0.3s;
+}
+
+.toggle-switch.active {
+  background-color: #71f975;
+}
+
+.toggle-switch.active::before {
+  transform: translateX(30px);
+} */
+
+/* Misol-8! */
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 100px;
+  color: rgb(245, 94, 6);
+  font-weight: 900;
+} */
