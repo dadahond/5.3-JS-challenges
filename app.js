@@ -89,3 +89,35 @@
 // setInterval(() => {
 //   time.textContent = new Date().toLocaleTimeString();
 // }, 1000);
+
+// Misol-9!!! Tugmani bosganda sahifa fon rangi tasodifiy ravishda o'zgarib turadi.
+
+const buttonColor = document.querySelector("#buttonColor");
+const colors = [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6",
+  "7",
+  "8",
+  "9",
+  "a",
+  "b",
+  "c",
+  "d",
+  "e",
+  "f",
+];
+
+const randomColor = () => {
+  let color = "#";
+  for (let i = 0; i < 6; i++) {
+    color += colors[Math.trunc(Math.random() * colors.length)];
+  }
+  return color;
+};
+buttonColor.addEventListener("click", () => {
+  document.body.style.backgroundColor = randomColor();
+});
