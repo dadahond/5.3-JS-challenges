@@ -92,32 +92,61 @@
 
 // Misol-9!!! Tugmani bosganda sahifa fon rangi tasodifiy ravishda o'zgarib turadi.
 
-const buttonColor = document.querySelector("#buttonColor");
-const colors = [
-  "1",
-  "2",
-  "3",
-  "4",
-  "5",
-  "6",
-  "7",
-  "8",
-  "9",
-  "a",
-  "b",
-  "c",
-  "d",
-  "e",
-  "f",
-];
+// Misol-9!!! Solution!
 
-const randomColor = () => {
-  let color = "#";
-  for (let i = 0; i < 6; i++) {
-    color += colors[Math.trunc(Math.random() * colors.length)];
-  }
-  return color;
-};
-buttonColor.addEventListener("click", () => {
-  document.body.style.backgroundColor = randomColor();
-});
+// const buttonColor = document.querySelector("#buttonColor");
+// const colors = [
+//   "1",
+//   "2",
+//   "3",
+//   "4",
+//   "5",
+//   "6",
+//   "7",
+//   "8",
+//   "9",
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+// ];
+
+// const randomColor = () => {
+//   let color = "#";
+//   for (let i = 0; i < 6; i++) {
+//     color += colors[Math.trunc(Math.random() * colors.length)];
+//   }
+//   return color;
+// };
+// buttonColor.addEventListener("click", () => {
+//   document.body.style.backgroundColor = randomColor();
+// });
+
+//  Misol-10!!! To-do ro'yxatiga yangi element qo'shish, qilingan ishlarni belgilash va ular ustiga chiziq tortish funksiyalarini qo'shing.
+
+// Misol-10! Solution!
+// const addTask = document.getElementById("addTask");
+// const taskInput = document.getElementById("taskInput");
+// const taskList = document.getElementById("taskList");
+
+// addTask.addEventListener("click", () => {
+//   const li = document.createElement("li");
+//   const button = document.createElement("button");
+//   button.textContent = taskInput.value;
+//   button.classList.add("todo-item");
+
+//   li.appendChild(button);
+//   taskList.appendChild(li);
+//   taskInput.value = "";
+// });
+// document.addEventListener("click", (e) => {
+//   if (e.target.classList.contains("todo-list")) {
+//     const buttonStyle = getComputedStyle(e.target).textDecoration;
+//     console.log(buttonStyle);
+//     buttonStyle.includes(`line-through`)
+//       ? (e.target.style.textDecoration = "none")
+//       : (e.target.style = `text-decoration: line-through;`);
+//   }
+// });
